@@ -68,7 +68,7 @@
 						<a class='btn btn-sm btn-outline-secondary' href='logout.php' 
 						>Sair</a>";
 					} else {
-						echo '<p class="classentrar">Entre para adicionar piadas.</p>';
+						//echo '<p class="classentrar">Entre para adicionar piadas.</p>';
 						 echo '<a class="btn btn-sm btn-outline-secondary" href="login.php">Entrar</a>';
 					} ?>
 					
