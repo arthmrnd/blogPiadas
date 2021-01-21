@@ -99,7 +99,7 @@
         }
 
         public function validatePassword($password) {
-            if (strlen($password) < 8 || strlen($surname) > 30) {
+            if (strlen($password) < 8 || strlen($password) > 30) {
                 array_push($this->registerErrorArray, "A senha deve conter entre 8 e 30 caracteres.");
                 return;
             }
